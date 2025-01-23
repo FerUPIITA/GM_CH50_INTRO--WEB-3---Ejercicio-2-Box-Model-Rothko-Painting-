@@ -1,0 +1,17 @@
+/* Paso 15Aprobado
+Use márgenes para ajustar el espaciado fuera de un elemento.
+
+Usando la propiedad margin, proporcione al elemento .frame un margen vertical de 20px y un margen horizontal de auto. Esto moverá el marco 20 píxeles hacia abajo y lo centrará horizontalmente en la página. */
+
+.canvas {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+}
+
+.frame {
+    border: 50px solid black;
+    width: 500px;
+    padding: 50px;
+    margin: 20px auto;
+}

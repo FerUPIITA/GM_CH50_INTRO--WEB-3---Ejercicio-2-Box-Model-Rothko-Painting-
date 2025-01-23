@@ -1,0 +1,7 @@
+/* Paso 9Aprobado
+Agregue la propiedad height con el valor 600px a la regla .canvas. */
+
+.canvas {
+    width: 500px;
+    height: 600px;
+}

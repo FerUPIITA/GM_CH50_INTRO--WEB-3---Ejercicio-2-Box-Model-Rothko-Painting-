@@ -1,0 +1,8 @@
+/* Paso 10Aprobado
+Cambie el background-color del lienzo a #4d0f00. */
+
+.canvas {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+}

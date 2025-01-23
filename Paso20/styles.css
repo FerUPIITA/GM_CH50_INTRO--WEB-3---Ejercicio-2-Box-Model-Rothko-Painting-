@@ -1,0 +1,24 @@
+/* Paso 20
+Utilice márgenes para colocar el elemento .one en el lienzo.
+
+Agregue la propiedad abreviada margin con un margen vertical de 20px y un margen horizontal de auto. */
+
+.canvas {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+}
+
+.frame {
+    border: 50px solid black;
+    width: 500px;
+    padding: 50px;
+    margin: 20px auto;
+}
+
+.one {
+    width: 425px;
+    height: 150px;
+    background-color: #efb762;
+    margin: 20px auto;
+}

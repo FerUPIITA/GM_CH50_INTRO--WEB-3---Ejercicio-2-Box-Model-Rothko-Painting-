@@ -1,0 +1,41 @@
+/* Paso 33
+Es útil que sus márgenes empujen en una dirección.
+
+En este caso, el margen inferior del elemento .one empuja .two 20 píxeles hacia abajo.
+
+En el selector .two, use la abreviatura margin para establecer el margen superior en 0, el margen horizontal en auto y el margen inferior en 20px. Esto eliminará su margen superior, lo centrará horizontalmente y establecerá su margen inferior en 20 píxeles. */
+
+.canvas {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+    overflow: hidden;
+}
+
+.frame {
+    border: 50px solid black;
+    width: 500px;
+    padding: 50px;
+    margin: 20px auto;
+}
+
+.one {
+    width: 425px;
+    height: 150px;
+    background-color: #efb762;
+    margin: 20px auto;
+}
+
+.two {
+    width: 475px;
+    height: 200px;
+    background-color: #8f0401;
+    margin: 0px auto 20px;
+}
+
+.three {
+    width: 91%;
+    height: 28%;
+    background-color: #b20403;
+    margin: auto;
+}

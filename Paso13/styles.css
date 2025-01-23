@@ -1,0 +1,15 @@
+/* Paso 13Aprobado
+El marco es demasiado ancho.
+
+En .frame, establezca su width en 500 píxeles. */
+
+.canvas {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+}
+
+.frame {
+    border: 50px solid black;
+    width: 500px;
+}

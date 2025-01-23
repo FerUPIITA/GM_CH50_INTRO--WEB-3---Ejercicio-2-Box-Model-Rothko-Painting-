@@ -1,0 +1,25 @@
+/* Paso 21
+Ahora .one está centrado horizontalmente, pero su margen superior está empujando más allá del lienzo y hacia el borde del marco, desplazando todo el lienzo 20 píxeles hacia abajo.
+
+Agregue padding de 1px al elemento .canvas para darle al elemento .one algo sólido para empujar. */
+
+.canvas {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+    padding: 1px; 
+}
+
+.frame {
+    border: 50px solid black;
+    width: 500px;
+    padding: 50px;
+    margin: 20px auto;
+}
+
+.one {
+    width: 425px;
+    height: 150px;
+    background-color: #efb762;
+    margin: 20px auto;
+}

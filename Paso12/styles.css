@@ -1,0 +1,14 @@
+/* Paso 12Aprobado
+Escribe una nueva regla usando el selector de clase .frame.
+
+Usa la declaración abreviada border para darle al elemento .frame un borde negro sólido con un ancho de 50px. */
+
+.canvas {
+    width: 500px;
+    height: 600px;
+    background-color: #4d0f00;
+}
+
+.frame {
+    border: 50px solid black;
+}
