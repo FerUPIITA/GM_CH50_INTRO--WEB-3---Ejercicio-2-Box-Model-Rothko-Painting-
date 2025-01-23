@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #ff1ef0;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.main-title {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Main Section */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.link-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.link-box a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.link-box h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+    color: #ff1e71;
+}
+
+.link-box p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+}
+
+.link-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.499);
+}
+
+.link-box:hover h2 {
+    color: #108b62;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ff1ef0;
+    color: white;
+    margin-top: 2rem;
+}
